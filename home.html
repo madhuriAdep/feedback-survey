@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FeedBack Survey</title>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="main">
+        <div class="feedback">
+            <h2>FeedBack Survey</h2>
+            <form href="thanku.html" id="feedback" action="post">
+
+                <label>What would you like the most about this course?</label><br>
+                <input type="text" name="enter" id="name" placeholder="Type here" required><br><br>
+
+                <label>How do you satisfied with the course content?</label>
+                <br>
+                <span> Unsatisfied</span>
+                <input type="range" name="rg" id="name" value="3" min="1" max="5" height="20" width="20">
+                <span id="rigsh">very satisfied</span><br><br>
+
+                <label>How satisfied are you with this course so far?</label><br>
+                <input type="number" name="amount" id="name" placeholder="Type here"><br><br>
+
+                <label>Which topics you completed successfully so far?</label>
+                <br>
+                <input type="checkbox" id="c" name="tp">&nbsp;&nbsp;<span id="c">C</span>&nbsp;
+                <input type="checkbox" id="cpp" name="tp">&nbsp;&nbsp;<span id="cpp">C++</span>&nbsp;
+                <input type="checkbox" id="java" name="tp">&nbsp;&nbsp;<span id="java">JAVA</span>&nbsp;
+                <input type="checkbox" id="jasc" name="tp">&nbsp;&nbsp;<span id="jasc">JAVASCRIPT</span>&nbsp;
+                <input type="checkbox" id="css" name="tp">&nbsp;&nbsp;<span id="css">CSS</span>&nbsp;<br><br>
+
+                <label>Would you like to do advance course related with this?</label>
+                <br>
+                <input type="radio" name="gender" id="yes">
+                <span id="yes">YES</span>&nbsp;
+                <input type="radio" name="gender" id="no">
+                <span id="no">NO</span><br><br>
+
+        
+               <label for="bun">How much time you required to complete course?</label><br>
+                <select class="" name="bun" id="name">
+                   <option value="1-2 hrs">1-2 hrs</option>
+                   <option value="2-3 hrs">2-3 hrs</option>
+                   <option value="3-4 hrs">3-4 hrs</option>
+                   <option value="4-5 hrs">4-5 hrs</option>
+               </select><br><br>
+      
+               <label>IS ther anything we can do to improve your experience?</label>
+               <br>
+              <textarea id="name" name="name" rows="3" cols="40" placeholder="Type here"></textarea><br><br>
+
+               <label>Share your thoughts about this course by writing us a review?</label>
+               <br>
+               <textarea id="name" name="name" rows="3" cols="40" placeholder="Type here"></textarea><br><br>
+
+               <input type="submit" name="submit" id="submit" value="submit">
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
